@@ -1,0 +1,53 @@
+* {
+  font-family: Agbalumo;
+}
+
+.home-content .home-text h2 {
+  padding: 20px;
+}
+.home-content .home-text p {
+  padding: 20px;
+}
+
+.container .row img {
+  width: 600px;
+  height: 300px;
+}
+
+.para p {
+  padding: 20px;
+  text-align: center;
+}
+
+#team_01 .row .col-md-3 img {
+  border: 2px solid black;
+}
+
+#foot #foot_01 #row #foot_02 #list {
+  display: flex;
+  padding-right: 100px;
+}
+
+#foot #foot_01 #row #foot_02 #list a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: brown;
+  border-radius: 50%;
+  margin: 30px 10px;
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 720px) {
+  .container .row img {
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .container-fluid .row .card {
+    margin: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
